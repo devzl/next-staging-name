@@ -1,6 +1,6 @@
 # Next staging branch name
 
-This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
+This action generate a staging name in a future day.
 
 # Usage
 
