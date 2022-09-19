@@ -18,11 +18,11 @@ Next day abbrv with date.
 
 ## Example usage
 
-- name: Get next Wednesday
+```- name: Get next Wednesday
   uses: devzl/next-staging-name@1.0.0
   id: nextWednesday
   with:
-    targetDay: 'Wednesday'
+    targetDay: 'Wednesday'```
 
 # If you modify or fork this repo
 
