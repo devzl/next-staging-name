@@ -1,0 +1,13 @@
+name: 'Get next staging branch name'
+description: 'Franch name friendly format for staging branch'
+inputs:
+  targetDay:  # id of input
+    description: 'Target day'
+    required: true
+    default: 'Wednesday'
+outputs:
+  targetDayFormatted: # id of output
+    description: 'Branch name friendly date output'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
