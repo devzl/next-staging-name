@@ -34,7 +34,7 @@ try {
         return
     }
 
-    const targetDate = getNextDayOfTheWeek(targetDay, false)
+    const targetDate = getNextDayOfTheWeek(targetDay, true)
 
     core.setOutput("targetDayFormatted", targetDate);
 } catch (error) {
